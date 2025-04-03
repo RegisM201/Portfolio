@@ -31,6 +31,8 @@ import {
     numpy,
     pytorch,
     
+    
+    
   } from "../assets";
   
   export const navLinks = [
@@ -49,10 +51,7 @@ import {
   ];
   
   const services = [
-    {
-      title: "Undergraduate",
-      icon: web,
-    },
+   
     {
       title: "Software Engineer",
       icon: backend,
@@ -114,8 +113,8 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "Docker",
+      icon: docker,
     },
     {
       name: "Numpy",
@@ -129,61 +128,51 @@ import {
       name: "C#",
       icon: cSharp,
     },
+    
   ];
+
+  
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Software Engineer Intern",
+      company_name: "Lockheed Martin",
+      icon: web,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "August 2023 - April 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Worked on a Large Language Model team ",
+        "Developed a low-SWaP private chatbot for efficient and accurate information retrieval from private company data ",
+        "Trained and optimized the model using PyTorch and TensorFlow to later Implement it into a NVIDIA Jetson  ",
+        "Utilized Mern technologies to develop chat box UI to easily prompt the model, as well as login/sign up functionality  ",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Software Engineer Intern",
+      company_name: "BNY",
+      icon: web,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "June 2024 - August 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Worked on the Entereprise Compliance Engineering team ",
+        "Collaborated with an AGILE SCRUM team to train a transaction monitoring AI using Python Capable of identifying false positive money laundering alerts with 97% accuracy increasing efficiency of investigation process and reducing risk to the bank ",
+        "Utilized Pentaho PDI tool to create a data management system Migrated tables from Oracle SQL DB to Snowflake Virtual DB  Allowing the company to process data pulled from high volume data sources 27% faster ",
+        "Collaborated with AGILE SCRUM team to develop a SAM Synthetic Test Data Tool Created a template with synthetic account data Allowing quick and easy manipulation of data for SAM rule testing ",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Software Engineer Intern",
+      company_name: "Kingdom Hoops",
+      icon: web,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "August 2024 - December 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Was a startup compnay where I worked on the cloud team. ",
+        "Collaborated with an AGILE SCRUM team to develop and deploy a mobile app used to optimize the training of basketball players  ",
+        "IUtilized Docker to containerize and deploy test application onto google cloud ",
       ],
     },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+  
   ];
   
   const testimonials = [
@@ -215,26 +204,42 @@ import {
   
   const projects = [
     {
-      name: "ATM Simulator",
+      name: "Med GPT",
       description:
-        "This project supports account creation, login, and transactions like deposits, withdrawals, and balance checks.",
+        "For this project, I took google Gemma 2B Natural Langauge Model and fine tuned it on medical data sets, creating a medical specialized chat",
       tags: [
         {
-          name: "Java",
+          name: "Python",
           color: "pink-text-gradient",
         },
-        
+        {
+          name: "Pytorch",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "AI/ML",
+          color: "pink-text-gradient",
+        },
+    
       ],
       image: carrent,
-      source_code_link: "https://github.com/RegisM201/ATM_Simulator.git",
+      source_code_link: "www.google.com",
     },
     {
-      name: "Music App",
+      name: "Salsa Studio Website",
       description:
-        "This project is a user-friendly command-line tool that empowers users to effortlessly create, organize, and interact with playlists and songs.",
+        "For this project, I created a website for a local salsa studio using React.js and Tailwind CSS. The website includes information about the studio, teams, classes, and instructors.",
       tags: [
         {
-          name: "Java",
+          name: "JavaScript",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "React.js",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "CSS",
           color: "pink-text-gradient",
         },
         
